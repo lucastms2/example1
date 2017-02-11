@@ -63,10 +63,19 @@ $navbar-default-bg: black;
     
 }
 
+.article-meta-details{
+    border-top: 1px solid #eaeaea;
+    margin-top: 15px;
+    color: grey;
+    
+}
+
+
 .article-actions{
     
     border-top: 1px solid #eaeaea;
     padding-top: 5px;
+    text-decoration: none;
     
     
 }
@@ -94,6 +103,9 @@ $navbar-default-bg: black;
     
     
 }
+
+
+
 
 .footer{
     margin-top: 45px;

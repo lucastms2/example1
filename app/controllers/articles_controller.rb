@@ -28,9 +28,9 @@ class ArticlesController < ApplicationController
     def create 
        
      # render plain: params[:article].inspect
-       
+       debugger
        @article = Article.new(article_params)
-       @article.user = User.first
+      # @article.user = User.first
        
        if @article.save
            
